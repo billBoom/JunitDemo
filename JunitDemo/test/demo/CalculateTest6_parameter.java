@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class CalculateTest {
+public class CalculateTest6_parameter {
 
 	int expected = 0;
 	int input1 = 0;
@@ -27,7 +27,7 @@ public class CalculateTest {
 		assertEquals(expected, new Calculate().add(input1, input2));
 	}
 
-	public CalculateTest(int expected, int input1, int input2) {
+	public CalculateTest6_parameter(int expected, int input1, int input2) {
 		this.expected = expected;
 		this.input1 = input1;
 		this.input2 = input2;
