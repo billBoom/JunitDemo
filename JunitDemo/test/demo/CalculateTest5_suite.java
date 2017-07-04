@@ -8,7 +8,7 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({ CalculateTest1.class, CalculateTest2_errorAndFailure.class,
 		CalculateTest3_fullProcess.class, CalculateTest4_Anotation.class,
 		CalculateTest6_parameter.class })
-public class Calcuate5_suite {
+public class CalculateTest5_suite {
 	
 	/*
 	 * 1.测试套件就是组织测试类一起运行的
